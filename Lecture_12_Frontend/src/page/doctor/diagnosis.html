@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/table.css" rel="stylesheet">
+    <title>Диагноз</title>
+</head>
+<body>
+<div class="container">
+    <div class="menu-top">
+        <header>
+            <div>
+                <nav>
+                    <a href="diagnosis.html">Диагноз</a>
+                    <a href="treatment.html">Назначение лечение</a>
+                    <a href="discharge.html">Выписать пациента</a>
+                    <a href="personal.html">Персонал</a>
+                    <a href="patient.html">Пациенты</a>
+                    <a href="list_patient.html">Список Пользователей</a>
+                    <a href="list_personal.html">Список персонала</a>
+                    <a class="exit-auth" href="../index.html">Выход</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div class="content">
+        <form class="from-info-treatment" action="#" method="post">
+            <div class="info-treatment">
+                <span class="name-table">Назначение диагноза</span>
+                <table class="info-treatment-table" border="1">
+                    <thead>
+                    <tr>
+                        <th>Н/Л</th>
+                        <th>Н/П</th>
+                        <th>Дата поступления</th>
+                        <th>Предварительный диагноз</th>
+                        <th>Название медикаментов</th>
+                        <th>Тип лечения</th>
+                        <th>Дата выписки</th>
+                        <th>Финальный диагноз</th>
+                        <th>Добавить</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><label><input type="number" name="number" class="number"></label></td>
+                        <td><label><input type="date" name="dateR" class="data-reception"></label></td>
+                        <td><label><input type="text" name="diagnosis" class="prelimin-diagnosis"></label></td>
+                        <td>null</td>
+                        <td>null</td>
+                        <td>null</td>
+                        <td>null</td>
+                        <td>
+                            <button type="submit" name="add-treatment" class="add-treatment">Добавить диагноз</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

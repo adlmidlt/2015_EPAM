@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/table.css" rel="stylesheet">
+    <title>Выписать пациента</title>
+</head>
+<body>
+<div class="container">
+    <div class="menu-top">
+        <header>
+            <div>
+                <nav>
+                    <a href="diagnosis.html">Диагноз</a>
+                    <a href="treatment.html">Назначение лечение</a>
+                    <a href="discharge.html">Выписать пациента</a>
+                    <a href="personal.html">Персонал</a>
+                    <a href="patient.html">Пациенты</a>
+                    <a href="list_patient.html">Список пациентов</a>
+                    <a href="list_personal.html">Список персонала</a>
+                    <a class="exit-auth" href="../index.html">Выход</a>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <div class="content">
+        <form class="from-info-treatment" action="#" method="post">
+            <div class="info-treatment">
+                <span class="name-table">Выписать пациента</span>
+                <table class="info-treatment-table" border="1">
+                    <thead>
+                    <tr>
+                        <th>Н/Л</th>
+                        <th>Н/П</th>
+                        <th>Дата поступления</th>
+                        <th>Предварительный диагноз</th>
+                        <th>Название медикаментов</th>
+                        <th>Тип лечения</th>
+                        <th>Дата выписки</th>
+                        <th>Финальный диагноз</th>
+                        <th>Выписать</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>2018-01-01</td>
+                        <td>ОРЗ</td>
+                        <td>Парацетамол</td>
+                        <td>МЕДИКАМЕНТЫ</td>
+                        <td><label><input type="date" name="date" class="date-discharge"></label></td>
+                        <td><label><input type="text" name="finalD" class="final-diagnosis"></label></td>
+                        <td>
+                            <button type="submit" name="add-treatment" class="add-treatment">Выписать</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/table.css" rel="stylesheet">
+    <title>Пациент</title>
+</head>
+<body>
+<div class="menu-top">
+    <header>
+        <div>
+            <nav>
+                <a href="diagnosis.html">Диагноз</a>
+                <a href="treatment.html">Назначение лечение</a>
+                <a href="discharge.html">Выписать пациента</a>
+                <a href="personal.html">Персонал</a>
+                <a href="patient.html">Пациенты</a>
+                <a href="list_patient.html">Список пациентов</a>
+                <a href="list_personal.html">Список персонала</a>
+                <a class="exit-auth" href="../index.html">Выход</a>
+            </nav>
+        </div>
+    </header>
+</div>
+
+<div class="content">
+    <form class="from-info-treatment" action="#" method="post">
+        <div class="info-treatment">
+            <span class="name-table">Добавить информация о пациенте</span>
+            <table class="info-treatment-table" border="1">
+                <thead>
+                <tr>
+                    <th>Н/Персонала</th>
+                    <th>Адрес</th>
+                    <th>Номер телефона</th>
+                    <th>Персональный/Н</th>
+                    <th>Добавить</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><label><input type="text" name="speca" class="speca-pers"></label></td>
+                    <td><label><input type="number" name="numberPhone" class="num-phone"></label></td>
+                    <td><label><input type="number" name="number" class="prelimin-diagnosis"></label></td>
+                    <td>
+                        <button type="submit" name="add-treatment" class="add-treatment">Добавить информацию</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+    <script src="../js/validation.js"></script>
+    <title>Авторизация</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu-top">
+            <header>
+                <div>
+                    <nav>
+                        <a class="reg-url" href="registration.html">Зарегистрироваться</a>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <form class="from-auth" action="#" method="post">
+            <fieldset>
+                <legend>Авторизация</legend>
+            <div class="auth-login">
+                <label>Логин
+                    <input type="text" name="login" placeholder="Введине логин" class="login" required>
+                    <div id="valid-login"></div>
+                </label>
+            </div>
+            <div class="auth-password">
+                <label>Пароль
+                    <input type="password" name="password" placeholder="Введите пароль" class="password" required>
+                    <div id="valid-password"></div>
+                </label>
+            </div>
+            <div class="auth-btn">
+                <label>
+                    <input type="submit" value="Авторизоваться" name="logIn" id="sing-up">
+                </label>
+            </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
